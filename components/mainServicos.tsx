@@ -23,7 +23,7 @@ export default function MainServicos() {
                 </View>
 
                 <View style={[tw`flex bg-white mx-4 mb-6 `,]}>
-                    <Image source={require('../assets/images/som.jpg')} style={[tw`rounded-lg flex justify-center items-center mb-2`, { width: 330, height: 300 }]} ></Image>
+                    <Image source={require('../assets/images/som.jpg')} style={[tw`rounded-lg flex justify-center items-center mb-2`, { width: 330, height: 300 }]} alt='A imagem mostra dois aparelhos auditivos retroauriculares, um na cor cinza e outro bege. Eles possuem um design curvado que se encaixa atrás da orelha, com tubos transparentes para direcionar o som ao canal auditivo. Ambos os dispositivos apresentam botões de ajuste e componentes dourados na parte superior.' ></Image>
                     <Text style={[tw`text-lg mb-2`, styles.title]}>Som Claro</Text>
                     <Text style={[tw`text-lg mb-2`, styles.content]}>R$ 255</Text>
                     <Text style={[tw`text-xs text-justify`, styles.content]}>Descubra o prazer da audição nítida com nossos aparelhos que combinam tecnologia auditivos de ponta. Projetados avançada e conforto para se ajustar ao seu estilo de incomparável, garantindo vida, eles trazem o mundo de mobilidade suave e volta aos seus ouvidos de personalizada para cada maneira confortável e discreta.</Text>
@@ -41,38 +41,6 @@ export default function MainServicos() {
                     <Text style={[tw`text-lg mb-2`, styles.title]}>MediControl</Text>
                     <Text style={[tw`text-lg mb-2`, styles.content]}>R$ 515</Text>
                     <Text style={[tw`text-xs text-justify`, styles.content]}>Descubra o MediControl, a maneira mais fácil de monitorar sua glicose. Simples, preciso e sempre ao seu lado para ajudar no cuidado com a sua saúde.</Text>
-                </View>
-
-                <View style={[tw`flex bg-white px-4 pb-6 mb-6`, { backgroundColor: '#c2bebe' }]}>
-                    <View style={[tw`mt-2`,]}>
-                        <Text style={[tw`text-lg mb-2`, styles.title]}>Fale conosco</Text>
-                        <Text style={[tw`text-xs mb-2`, styles.content]}>Quer trabalhar em conjunto?</Text>
-                        <Text style={[tw`text-xs mb-2`, styles.content]}>Preencha o formulário, e entraremos em contato em breve! Será um prazer falar com você.</Text>
-                    </View>
-                    <View style={[tw`flex justify-between mt-2`,]}>
-                        <Text style={[tw`text-sm mb-2`, styles.content]}>Nome:</Text>
-                        <TextInput
-                            style={[tw`w-full border-2 border-black p-2 rounded-full`, styles.content]}
-                            placeholder="Digite seu nome"
-                            value={nome}
-                            onChangeText={setNome}
-                        />
-                        <Text style={[tw`text-sm mb-2`, styles.content]}>E-mail:</Text>
-                        <TextInput
-                            style={[tw`w-full border-2 border-black p-2 rounded-full`, styles.content]}
-                            placeholder="Digite seu e-mail"
-                            value={email}
-                            onChangeText={setEmail}
-                        />
-                        <Text style={[tw`text-sm mb-2`, styles.content]}>Mensagem:</Text>
-                        <TextInput
-                            style={[tw`w-full border-2 border-black p-2 rounded-xl h-20`, styles.content]}
-                            placeholder="Digite sua mensagem"
-                            value={email}
-                            onChangeText={setEmail}
-                        />
-                    </View>
-                    <TouchableOpacity style={[tw`bg-black px-4 py-2 mt-2 rounded-full w-24`]}><Text style={[tw`text-sm text-center text-white`, styles.content]}>Enviar</Text></TouchableOpacity>
                 </View>
 
                 <Footer />

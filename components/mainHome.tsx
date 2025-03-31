@@ -17,7 +17,7 @@ export default function HeroHome() {
     <>
       <ScrollView>
         <View style={[tw`flex justify-center items-center rounded-lg`,]}>
-          <ImageBackground source={require('../assets/images/unnamed.png')} style={[tw`rounded-lg flex justify-center items-center`, { width: 340, height: 200 }]} >
+          <ImageBackground source={require('../assets/images/unnamed.png')} style={[tw`rounded-lg flex justify-center items-center`, { width: 340, height: 200 }]} alt='A imagem mostra uma sala de espera de uma clínica médica com cadeiras estofadas de madeira organizadas ao longo das paredes. As paredes são pintadas de azul claro e possuem pôsteres informativos sobre saúde. Há algumas plantas decorativas no ambiente. Na recepção, um profissional de saúde está atrás do balcão, e uma TV na parede exibe uma paisagem natural. O espaço é bem iluminado, com luz natural entrando por janelas altas e iluminação artificial no teto.' >
             <Text style={[tw`text-white text-center text-sm`, styles.title]}>Cuidados medicos simplificados com tecnologia</Text>
           </ImageBackground >
         </View>
