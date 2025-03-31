@@ -8,7 +8,7 @@ export default function Footer() {
       });
   return (
     <>
-        <View style={[tw`flex flex-row bg-white justify-between mx-2 mb-6 `, ]}>
+        <View style={[tw`flex flex-row bg-white justify-between mx-2 mb-6 w-full`, ]}>
             <Text style={[tw`text-2xl`, styles.title]}>MedTech</Text>
             <View style={[tw`flex flex-col items-right bg-white`,]}>
                 <Text style={[tw`text-sm font-bold`, styles.content]}>Localização</Text>
@@ -16,7 +16,7 @@ export default function Footer() {
                 <Text style={[tw`text-xs`, styles.content]}>Lages - SC</Text>
                 <Text style={[tw`text-xs`, styles.content]}>88000-000</Text>
             </View>
-            <View style={[tw`flex flex-col items-right bg-white`,]}>
+            <View style={[tw`flex flex-col items-right bg-white mr-2`,]}>
                 <Text style={[tw`text-sm mr-2 font-bold`, styles.content]}>Contato</Text>
                 <Text style={[tw`text-xs mr-2`, styles.content]}>teste@medtech.com</Text>
                 <Text style={[tw`text-xs mr-2`, styles.content]}>(49) 9 9999-9999</Text>
