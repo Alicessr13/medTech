@@ -72,6 +72,7 @@ export default function MainServicos() {
                             onChangeText={setEmail}
                         />
                     </View>
+                    <TouchableOpacity style={[tw`bg-black px-4 py-2 mt-2 rounded-full w-24`]}><Text style={[tw`text-sm text-center text-white`, styles.content]}>Enviar</Text></TouchableOpacity>
                 </View>
 
                 <Footer />
