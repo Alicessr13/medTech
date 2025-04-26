@@ -13,7 +13,7 @@ export default function HeaderHome() {
       <View style={[tw`flex flex-row items-center bg-white justify-between mx-2 my-6`,]}>
         <Text style={[tw`text-lg`, styles.title]}>MedTech</Text>
         <View style={[tw`flex flex-row items-center bg-white`,]}>
-          <Link href={"/faleConosco"} style={[tw`mr-4`]}><Text style={[tw`text-xs`, styles.content]}>Fale conosco</Text></Link>
+          <Link href="/faleConosco" style={[tw`mr-4`]}><Text style={[tw`text-xs`, styles.content]}>Fale conosco</Text></Link>
           <Link href="/servicos" style={[tw`mr-4`]}><Text style={[tw`text-xs`, styles.content]}>Serviços</Text></Link>
           <Link href="/"><Text style={[tw`text-xs`, styles.content]}>Quem somos</Text></Link>
 
